@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "incore-video",
+  "owner": {
+    "name": "인코어"
+  },
+  "metadata": {
+    "description": "인코어 영상 생성 자동화 플러그인 (Claude Code)"
+  },
+  "plugins": [
+    {
+      "name": "ai-video-reference-replication",
+      "source": "./plugins/ai-video-reference-replication",
+      "description": "레퍼런스 영상부터 AI 클린본·TTS·CapCut 편집까지. 컷별 시작 이미지는 Codex에서 만들고 나머지는 Claude가 진행합니다."
+    }
+  ]
+}

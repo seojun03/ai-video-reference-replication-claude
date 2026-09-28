@@ -1,0 +1,11 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ai-video-reference-replication",
+  "version": "1.11.0",
+  "description": "레퍼런스 기반 AI 영상 생성, 클린본 편집, 대본과 TTS를 연결하는 영상 제작 플러그인 (Claude Code 이식판 — 컷별 시작 이미지는 Codex 핸드오프)",
+  "author": {
+    "name": "인코어"
+  },
+  "repository": "https://github.com/seojun03/ai-video-reference-replication-claude",
+  "keywords": ["video", "capcut", "higgsfield", "kling", "tts", "ecommerce"]
+}
